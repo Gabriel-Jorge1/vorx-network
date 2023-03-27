@@ -2,7 +2,7 @@ resource "aws_vpc" "vorx-vpc-prod" {
   cidr_block       = "10.0.0.0/16"
 
   tags = {
-    Name = "VORX-PROD"
+    Name = "VORX-PRODUCAO"
   }
 }
 
